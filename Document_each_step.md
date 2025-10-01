@@ -7,5 +7,5 @@
 7. Now moving to frontend, I imported the chatbot function from app.py to main.py so that both scripts can be started with only one command rather than defining endpoints, I used Streamlit and made a simple UI in main.py.
 8. I tested it with backend, got the error of model, i.e. I was no longer able to use the llama3 model of Groq, so I changed the model to deepseek and configured it to remove its Think feature because it is only a simple AI bot, I also put, max tokens to be 1000 and temperature 0.7.
 9. After testing, I put the GROQ_API_KEY in .env to keep it as a secret and then pushed all the remaining files on github.
-10. Then I used Vercel to deploy the project and gave the api secret manually to vercel.
+10. Then I used Render to deploy the project and gave the api secret manually to Render.
 11. I made the readme file of the whole project.
