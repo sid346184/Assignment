@@ -4,7 +4,6 @@ from dotenv import load_dotenv
 load_dotenv()
 
 st.set_page_config(page_title="AI Chatbot")
-
 st.title("AI Chatbot")
 
 if "messages" not in st.session_state:
